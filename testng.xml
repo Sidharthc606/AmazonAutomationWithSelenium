@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonAutomationSuite" parallel="methods" thread-count="5">
+    <test name="AmazonTests">
+        <classes>
+            <class name="com.amazon.automation.AddToCartTest"/>
+            <class name="com.amazon.automation.AmazonTest"/>
+            <class name="com.amazon.automation.CheckoutTest"/>
+            <class name="com.amazon.automation.LoginTest"/>
+            <class name="com.amazon.automation.PreviousOrdersTest"/>
+            <class name="com.amazon.automation.RemoveFromCartTest"/>
+            <class name="com.amazon.automation.SearchTest"/>
+            <class name="com.amazon.automation.SortProductsByPriceTest"/>
+        </classes>
+    </test>
+</suite>
